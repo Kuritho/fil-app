@@ -3,14 +3,17 @@
     "name": "laravel/laravel",
     "type": "project",
     "description": "The skeleton application for the Laravel framework.",
-    "keywords": ["laravel", "framework"],
+    "keywords": [
+        "laravel",
+        "framework"
+    ],
     "license": "MIT",
     "require": {
         "php": "^8.2",
-        "filament/filament": ">=3.2 <4.0",
+        "filament/filament": "^3.2",
         "laravel/framework": "^11.31",
         "laravel/tinker": "^2.9",
-        "paypal/rest-api-sdk-php": "^1.6",
+        "livewire/livewire": "^3.5",
         "stripe/stripe-php": "^16.3"
     },
     "require-dev": {
